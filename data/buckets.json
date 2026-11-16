@@ -1,0 +1,1599 @@
+[
+  {
+    "Name": "acme-tmp-us-east-1-001",
+    "Region": "us-east-1",
+    "CreationDate": "2026-08-12T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 342455691909,
+        "StandardIAStorage": 18023983784,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 11563,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 3
+  },
+  {
+    "Name": "acme-logs-us-east-2-002",
+    "Region": "us-east-2",
+    "CreationDate": "2023-06-28T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 2911101320,
+        "StandardIAStorage": 153215858,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 106,
+      "NoncurrentVersionBytes": 1491013416
+    },
+    "DaysSinceLastAccess": 569
+  },
+  {
+    "Name": "acme-ml-models-us-east-1-003",
+    "Region": "us-east-1",
+    "CreationDate": "2022-01-15T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 30020762250,
+        "StandardIAStorage": 1580040118,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 5699,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 704
+  },
+  {
+    "Name": "acme-reports-sa-east-1-004",
+    "Region": "sa-east-1",
+    "CreationDate": "2022-02-21T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 247784369684,
+        "StandardIAStorage": 327028038140,
+        "GlacierInstantRetrievalStorage": 123536773638,
+        "DeepArchiveStorage": 100505421931
+      },
+      "NumberOfObjects": 27378,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1287
+  },
+  {
+    "Name": "acme-logs-us-east-2-005",
+    "Region": "us-east-2",
+    "CreationDate": "2022-02-11T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 90484941237,
+        "StandardIAStorage": 168064384726,
+        "GlacierInstantRetrievalStorage": 110214756784,
+        "DeepArchiveStorage": 76946006667
+      },
+      "NumberOfObjects": 18526,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 747
+  },
+  {
+    "Name": "acme-tmp-us-east-1-006",
+    "Region": "us-east-1",
+    "CreationDate": "2021-08-08T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 4840265571,
+        "StandardIAStorage": 3429450087,
+        "GlacierInstantRetrievalStorage": 1254805639,
+        "DeepArchiveStorage": 1981982814
+      },
+      "NumberOfObjects": 791,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1310
+  },
+  {
+    "Name": "acme-logs-us-east-2-007",
+    "Region": "us-east-2",
+    "CreationDate": "2023-12-29T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 126087788782,
+        "StandardIAStorage": 6636199409,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 11480,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 810
+  },
+  {
+    "Name": "acme-tmp-eu-west-1-008",
+    "Region": "eu-west-1",
+    "CreationDate": "2024-07-21T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 74102666079,
+        "StandardIAStorage": 3900140319,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 2527,
+      "NoncurrentVersionBytes": 106643077221
+    },
+    "DaysSinceLastAccess": 370
+  },
+  {
+    "Name": "acme-backup-us-east-2-009",
+    "Region": "us-east-2",
+    "CreationDate": "2024-08-19T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 5555184390,
+        "StandardIAStorage": 5588999221,
+        "GlacierInstantRetrievalStorage": 1238329797,
+        "DeepArchiveStorage": 1816594103
+      },
+      "NumberOfObjects": 396,
+      "NoncurrentVersionBytes": 13848840236
+    },
+    "DaysSinceLastAccess": 390
+  },
+  {
+    "Name": "acme-logs-us-east-1-010",
+    "Region": "us-east-1",
+    "CreationDate": "2026-10-10T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 12086040071,
+        "StandardIAStorage": 10598228512,
+        "GlacierInstantRetrievalStorage": 3766217054,
+        "DeepArchiveStorage": 526269741
+      },
+      "NumberOfObjects": 3088,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 16
+  },
+  {
+    "Name": "acme-tmp-sa-east-1-011",
+    "Region": "sa-east-1",
+    "CreationDate": "2023-10-26T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 393561170686,
+        "StandardIAStorage": 20713745825,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 10119,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1
+  },
+  {
+    "Name": "acme-reports-sa-east-1-012",
+    "Region": "sa-east-1",
+    "CreationDate": "2021-06-25T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 62349139398,
+        "StandardIAStorage": 160583437248,
+        "GlacierInstantRetrievalStorage": 9642402607,
+        "DeepArchiveStorage": 70642637721
+      },
+      "NumberOfObjects": 85876,
+      "NoncurrentVersionBytes": 406739895253
+    },
+    "DaysSinceLastAccess": 161
+  },
+  {
+    "Name": "acme-ml-models-us-east-2-013",
+    "Region": "us-east-2",
+    "CreationDate": "2025-08-09T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 1877104790,
+        "StandardIAStorage": 1899765135,
+        "GlacierInstantRetrievalStorage": 998452898,
+        "DeepArchiveStorage": 372513820
+      },
+      "NumberOfObjects": 160,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 276
+  },
+  {
+    "Name": "acme-tmp-sa-east-1-014",
+    "Region": "sa-east-1",
+    "CreationDate": "2023-09-08T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 22103567208,
+        "StandardIAStorage": 1163345642,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 14397,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 471
+  },
+  {
+    "Name": "acme-reports-us-east-2-015",
+    "Region": "us-east-2",
+    "CreationDate": "2026-01-19T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      },
+      {
+        "ID": "expire-noncurrent",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "NoncurrentVersionExpiration": {
+          "NoncurrentDays": 30
+        }
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 3393872178,
+        "StandardIAStorage": 2802504993,
+        "GlacierInstantRetrievalStorage": 1457141501,
+        "DeepArchiveStorage": 836050592
+      },
+      "NumberOfObjects": 240,
+      "NoncurrentVersionBytes": 248585732
+    },
+    "DaysSinceLastAccess": 292
+  },
+  {
+    "Name": "acme-logs-us-east-1-016",
+    "Region": "us-east-1",
+    "CreationDate": "2022-04-21T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 246642626558,
+        "StandardIAStorage": 12981190871,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 70735,
+      "NoncurrentVersionBytes": 297704832742
+    },
+    "DaysSinceLastAccess": 223
+  },
+  {
+    "Name": "acme-backup-us-east-2-017",
+    "Region": "us-east-2",
+    "CreationDate": "2022-04-06T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 7381414103,
+        "StandardIAStorage": 388495479,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 169,
+      "NoncurrentVersionBytes": 2315435813
+    },
+    "DaysSinceLastAccess": 1127
+  },
+  {
+    "Name": "acme-logs-us-east-1-018",
+    "Region": "us-east-1",
+    "CreationDate": "2024-07-17T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 1569399435,
+        "StandardIAStorage": 1898616077,
+        "GlacierInstantRetrievalStorage": 1108308303,
+        "DeepArchiveStorage": 1753433142
+      },
+      "NumberOfObjects": 544,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 60
+  },
+  {
+    "Name": "acme-ml-models-eu-west-1-019",
+    "Region": "eu-west-1",
+    "CreationDate": "2026-06-19T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 63631697037,
+        "StandardIAStorage": 35227416147,
+        "GlacierInstantRetrievalStorage": 15182956477,
+        "DeepArchiveStorage": 1618404013
+      },
+      "NumberOfObjects": 13513,
+      "NoncurrentVersionBytes": 67744672667
+    },
+    "DaysSinceLastAccess": 148
+  },
+  {
+    "Name": "acme-app-assets-us-east-2-020",
+    "Region": "us-east-2",
+    "CreationDate": "2025-06-22T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 3888469569,
+        "StandardIAStorage": 204656293,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 115,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 413
+  },
+  {
+    "Name": "acme-logs-us-east-2-021",
+    "Region": "us-east-2",
+    "CreationDate": "2022-10-11T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 26960462008,
+        "StandardIAStorage": 43961071222,
+        "GlacierInstantRetrievalStorage": 27792509648,
+        "DeepArchiveStorage": 8275314472
+      },
+      "NumberOfObjects": 2181,
+      "NoncurrentVersionBytes": 49807500093
+    },
+    "DaysSinceLastAccess": 643
+  },
+  {
+    "Name": "acme-datalake-us-east-1-022",
+    "Region": "us-east-1",
+    "CreationDate": "2021-11-07T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 4217589159,
+        "StandardIAStorage": 2902475898,
+        "GlacierInstantRetrievalStorage": 441863673,
+        "DeepArchiveStorage": 1556931879
+      },
+      "NumberOfObjects": 638,
+      "NoncurrentVersionBytes": 12887112958
+    },
+    "DaysSinceLastAccess": 140
+  },
+  {
+    "Name": "acme-tmp-sa-east-1-023",
+    "Region": "sa-east-1",
+    "CreationDate": "2021-07-26T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 12968410825,
+        "StandardIAStorage": 42493530608,
+        "GlacierInstantRetrievalStorage": 7274816842,
+        "DeepArchiveStorage": 16315894185
+      },
+      "NumberOfObjects": 2697,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1358
+  },
+  {
+    "Name": "acme-tmp-us-east-2-024",
+    "Region": "us-east-2",
+    "CreationDate": "2025-05-20T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 9922406337,
+        "StandardIAStorage": 522231912,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 233,
+      "NoncurrentVersionBytes": 8951386864
+    },
+    "DaysSinceLastAccess": 52
+  },
+  {
+    "Name": "acme-logs-eu-west-1-025",
+    "Region": "eu-west-1",
+    "CreationDate": "2026-03-01T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 6955895118,
+        "StandardIAStorage": 366099743,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 197,
+      "NoncurrentVersionBytes": 6803443308
+    },
+    "DaysSinceLastAccess": 38
+  },
+  {
+    "Name": "acme-tmp-us-east-2-026",
+    "Region": "us-east-2",
+    "CreationDate": "2021-07-24T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 76394244808,
+        "StandardIAStorage": 4020749726,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 29834,
+      "NoncurrentVersionBytes": 54203483402
+    },
+    "DaysSinceLastAccess": 1630
+  },
+  {
+    "Name": "acme-ml-models-us-east-1-027",
+    "Region": "us-east-1",
+    "CreationDate": "2021-07-30T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 512910340613,
+        "StandardIAStorage": 26995281084,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 16490,
+      "NoncurrentVersionBytes": 216458605422
+    },
+    "DaysSinceLastAccess": 484
+  },
+  {
+    "Name": "acme-ml-models-us-east-2-028",
+    "Region": "us-east-2",
+    "CreationDate": "2022-04-18T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 187778366095,
+        "StandardIAStorage": 9883071899,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 4047,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1371
+  },
+  {
+    "Name": "acme-ml-models-us-east-2-029",
+    "Region": "us-east-2",
+    "CreationDate": "2024-10-30T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      },
+      {
+        "ID": "expire-noncurrent",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "NoncurrentVersionExpiration": {
+          "NoncurrentDays": 30
+        }
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 1159716902,
+        "StandardIAStorage": 1249583400,
+        "GlacierInstantRetrievalStorage": 181120565,
+        "DeepArchiveStorage": 357508465
+      },
+      "NumberOfObjects": 270,
+      "NoncurrentVersionBytes": 273157110
+    },
+    "DaysSinceLastAccess": 312
+  },
+  {
+    "Name": "acme-app-assets-sa-east-1-030",
+    "Region": "sa-east-1",
+    "CreationDate": "2022-01-23T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 2176907005,
+        "StandardIAStorage": 1950471665,
+        "GlacierInstantRetrievalStorage": 2463948414,
+        "DeepArchiveStorage": 489237993
+      },
+      "NumberOfObjects": 332,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1098
+  },
+  {
+    "Name": "acme-reports-sa-east-1-031",
+    "Region": "sa-east-1",
+    "CreationDate": "2024-08-19T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 174582221132,
+        "StandardIAStorage": 9188537954,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 5744,
+      "NoncurrentVersionBytes": 158934136874
+    },
+    "DaysSinceLastAccess": 590
+  },
+  {
+    "Name": "acme-backup-sa-east-1-032",
+    "Region": "sa-east-1",
+    "CreationDate": "2022-08-19T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 1317507465624,
+        "StandardIAStorage": 69342498190,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 36625,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1509
+  },
+  {
+    "Name": "acme-tmp-us-east-2-033",
+    "Region": "us-east-2",
+    "CreationDate": "2023-12-13T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 76620607403,
+        "StandardIAStorage": 62225972812,
+        "GlacierInstantRetrievalStorage": 43696923552,
+        "DeepArchiveStorage": 23164875963
+      },
+      "NumberOfObjects": 29416,
+      "NoncurrentVersionBytes": 281833004917
+    },
+    "DaysSinceLastAccess": 633
+  },
+  {
+    "Name": "acme-backup-eu-west-1-034",
+    "Region": "eu-west-1",
+    "CreationDate": "2026-10-16T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 26153793352,
+        "StandardIAStorage": 40061001200,
+        "GlacierInstantRetrievalStorage": 21188882364,
+        "DeepArchiveStorage": 15945798227
+      },
+      "NumberOfObjects": 3568,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 9
+  },
+  {
+    "Name": "acme-app-assets-eu-west-1-035",
+    "Region": "eu-west-1",
+    "CreationDate": "2023-01-26T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 240827123044,
+        "StandardIAStorage": 157928654688,
+        "GlacierInstantRetrievalStorage": 197812329539,
+        "DeepArchiveStorage": 32534958741
+      },
+      "NumberOfObjects": 41241,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1296
+  },
+  {
+    "Name": "acme-datalake-us-east-2-036",
+    "Region": "us-east-2",
+    "CreationDate": "2022-10-06T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 302302019669,
+        "StandardIAStorage": 15910632614,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 6840,
+      "NoncurrentVersionBytes": 301784023323
+    },
+    "DaysSinceLastAccess": 1426
+  },
+  {
+    "Name": "acme-app-assets-eu-west-1-037",
+    "Region": "eu-west-1",
+    "CreationDate": "2025-10-21T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      },
+      {
+        "ID": "expire-noncurrent",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "NoncurrentVersionExpiration": {
+          "NoncurrentDays": 30
+        }
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 993344950786,
+        "StandardIAStorage": 695462230274,
+        "GlacierInstantRetrievalStorage": 241751436880,
+        "DeepArchiveStorage": 548656893379
+      },
+      "NumberOfObjects": 409337,
+      "NoncurrentVersionBytes": 119654768587
+    },
+    "DaysSinceLastAccess": 356
+  },
+  {
+    "Name": "acme-app-assets-us-east-2-038",
+    "Region": "us-east-2",
+    "CreationDate": "2023-05-11T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 12280219723025,
+        "StandardIAStorage": 21414982361834,
+        "GlacierInstantRetrievalStorage": 6068701801567,
+        "DeepArchiveStorage": 1444049331650
+      },
+      "NumberOfObjects": 880637,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1033
+  },
+  {
+    "Name": "acme-ml-models-eu-west-1-039",
+    "Region": "eu-west-1",
+    "CreationDate": "2025-04-02T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 418521889079,
+        "StandardIAStorage": 22027467846,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 15972,
+      "NoncurrentVersionBytes": 447057578511
+    },
+    "DaysSinceLastAccess": 450
+  },
+  {
+    "Name": "acme-logs-sa-east-1-040",
+    "Region": "sa-east-1",
+    "CreationDate": "2022-10-31T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "platform"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 65349205384,
+        "StandardIAStorage": 3439431862,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 5490,
+      "NoncurrentVersionBytes": 75814347927
+    },
+    "DaysSinceLastAccess": 438
+  },
+  {
+    "Name": "acme-logs-eu-west-1-041",
+    "Region": "eu-west-1",
+    "CreationDate": "2021-11-08T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 10724969926,
+        "StandardIAStorage": 564472101,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 227,
+      "NoncurrentVersionBytes": 2544544766
+    },
+    "DaysSinceLastAccess": 1567
+  },
+  {
+    "Name": "acme-reports-eu-west-1-042",
+    "Region": "eu-west-1",
+    "CreationDate": "2023-05-30T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 810503819533,
+        "StandardIAStorage": 42658095764,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 21695,
+      "NoncurrentVersionBytes": 776353456651
+    },
+    "DaysSinceLastAccess": 451
+  },
+  {
+    "Name": "acme-app-assets-us-east-2-043",
+    "Region": "us-east-2",
+    "CreationDate": "2024-03-03T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 9655506302,
+        "StandardIAStorage": 508184542,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 472,
+      "NoncurrentVersionBytes": 4213440879
+    },
+    "DaysSinceLastAccess": 941
+  },
+  {
+    "Name": "acme-backup-us-east-1-044",
+    "Region": "us-east-1",
+    "CreationDate": "2024-12-15T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      },
+      {
+        "ID": "expire-noncurrent",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "NoncurrentVersionExpiration": {
+          "NoncurrentDays": 30
+        }
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 2908739273,
+        "StandardIAStorage": 3108624321,
+        "GlacierInstantRetrievalStorage": 2723122418,
+        "DeepArchiveStorage": 574270413
+      },
+      "NumberOfObjects": 935,
+      "NoncurrentVersionBytes": 311243907
+    },
+    "DaysSinceLastAccess": 216
+  },
+  {
+    "Name": "acme-ml-models-eu-west-1-045",
+    "Region": "eu-west-1",
+    "CreationDate": "2025-07-14T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 137169921078,
+        "StandardIAStorage": 7219469530,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 2891,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 332
+  },
+  {
+    "Name": "acme-logs-us-east-1-046",
+    "Region": "us-east-1",
+    "CreationDate": "2025-07-27T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "data-team"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 1150258432,
+        "StandardIAStorage": 60539917,
+        "GlacierInstantRetrievalStorage": 0,
+        "DeepArchiveStorage": 0
+      },
+      "NumberOfObjects": 40,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 238
+  },
+  {
+    "Name": "acme-tmp-sa-east-1-047",
+    "Region": "sa-east-1",
+    "CreationDate": "2024-07-26T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "finance"
+      }
+    ],
+    "Versioning": {
+      "Status": "Enabled"
+    },
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 1155276745,
+        "StandardIAStorage": 2432731653,
+        "GlacierInstantRetrievalStorage": 1605191327,
+        "DeepArchiveStorage": 312892714
+      },
+      "NumberOfObjects": 154,
+      "NoncurrentVersionBytes": 7959743176
+    },
+    "DaysSinceLastAccess": 732
+  },
+  {
+    "Name": "acme-tmp-sa-east-1-048",
+    "Region": "sa-east-1",
+    "CreationDate": "2023-01-31T22:27:46.487643+00:00",
+    "Tags": [],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 15532444279,
+        "StandardIAStorage": 47999203406,
+        "GlacierInstantRetrievalStorage": 462097507,
+        "DeepArchiveStorage": 10227937270
+      },
+      "NumberOfObjects": 2634,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 758
+  },
+  {
+    "Name": "acme-app-assets-us-east-1-049",
+    "Region": "us-east-1",
+    "CreationDate": "2022-09-05T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 1202695150134,
+        "StandardIAStorage": 695175588377,
+        "GlacierInstantRetrievalStorage": 599776812830,
+        "DeepArchiveStorage": 266257479649
+      },
+      "NumberOfObjects": 119504,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 1068
+  },
+  {
+    "Name": "acme-app-assets-eu-west-1-050",
+    "Region": "eu-west-1",
+    "CreationDate": "2025-03-24T22:27:46.487643+00:00",
+    "Tags": [
+      {
+        "Key": "owner",
+        "Value": "marketing"
+      }
+    ],
+    "Versioning": {},
+    "LifecycleRules": [
+      {
+        "ID": "transition-to-ia",
+        "Status": "Enabled",
+        "Filter": {
+          "Prefix": ""
+        },
+        "Transitions": [
+          {
+            "Days": 30,
+            "StorageClass": "STANDARD_IA"
+          }
+        ]
+      }
+    ],
+    "Metrics": {
+      "BucketSizeBytes": {
+        "StandardStorage": 6485984411,
+        "StandardIAStorage": 11143892565,
+        "GlacierInstantRetrievalStorage": 6011685020,
+        "DeepArchiveStorage": 2488662374
+      },
+      "NumberOfObjects": 532,
+      "NoncurrentVersionBytes": 0
+    },
+    "DaysSinceLastAccess": 461
+  }
+]
